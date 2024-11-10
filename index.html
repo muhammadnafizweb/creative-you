@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmlTag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="output/main.css">
+    <title>Document</title>
+</head>
+<body class="dark:bg-gray-900">
+    
+    <!--This is hesder section start-->
+    <header class="">
+        <nav class=" flex mt-5 shadow-lg pb-5 ">
+                <img class="ml-12" src="image/logo.png" alt="">
+               
+              <ul class="flex items-center ml-[330px] mr-[400px] shadow-md  px-5">
+                <li><a class="pr-8 font-mono font-semibold hover:text-red-700 transition hover:translate-y-1" href="#">Home</a></li>
+                <li><a class="pr-8 font-mono font-semibold hover:text-red-700 transition hover:translate-y-1" href="#">About us</a></li>
+                <li><a class="pr-8 font-mono font-semibold hover:text-red-700 transition hover:translate-y-1" href="#">Upskill</a></li>
+                <li><a class="font-mono font-semibold hover:text-red-700 transition hover:translate-y-1" href="#">Contact us</a></li>
+               </ul>
+            
+            
+               <button class="bg-[#F44335] text-white px-2  rounded-lg font-semibold hover:bg-[#42669e] transition hover:translate-y-1" >Register interest</button>
+
+               <button class="ml-3 dark:text-white" id="switch"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+              </svg>
+              </button>
+
+        </nav>
+    </header>
+
+    <!--This is hesder section end-->
+
+
+    <!--This is banner section start-->
+    <section class="flex bg-[#FAFAFA]">
+        <section class="w-[50%] mt-[60px] ml-[90px]">
+            <div>
+                <p class="font-semibold pb-3">Discover - Interact - Engage</p>
+                <h1 class="text-4xl font-bold font-sans pb-10">Google<br><span class="text-red-500 underline">IT Support</span><br>Certificate</h1>
+                <p class="pb-8">This is your path to a career in IT.In this program,you'll learn in-<br>demand skills with no degree or experience required.</p>
+            </div>
+            <div class="flex mb-7 ">
+                <span class="pr-8 items-center">
+                    <p class="text-[#00FF84] font-bold">438</p>
+                    <p>videos</p>
+                </span>
+                <span class="pr-8">
+                    <p class="text-[#00FF84] font-bold">151</p>
+                    <p>Readings</p>
+                </span>
+                <span class="pr-8">
+                    <p class="text-[#00FF84] font-bold">108</p>
+                    <p>Quizzes</p>
+                </span>
+                <span class="pr-8">
+                    <p class="text-[#00FF84] font-bold">24</p>
+                    <p>Exercise</p>
+                </span>
+                <span>
+                    <p class="text-[#00FF84] font-bold">4</p>
+                    <p>Assignment</p>
+                </span>
+            </div>
+            <button class="bg-[#ff3636] py-2 px-6 rounded-xl text-white mr-7 hover:scale-105 transition-all cursor-pointer">Sign Up</button>
+            <button class="bg-[#ffffff] py-2 px-6 rounded-xl text-black hover:scale-105 transition-all cursor-pointer">Learn More</button>
+        </section>
+        <section class="w-[50%]">
+            <img class="mt-20" src="image/first img.png" alt="">
+        </section>
+        
+    </section>
+
+    <!--This is banner section end-->
+
+    <!--This is google section start-->
+
+    <section class="grid row-span-4 grid-flow-col items-center mb-20 mt-10 ml-20">
+        <div class="border-r border-r-[#D1D3D4]">
+            <p>Pave your path to career success by<br> gaining  a  professional  Google<br> certificate with the support of C4U</p>
+        </div>
+        <div class=" pl-6 h-fit border-r border-r-[#D1D3D4]">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="border-r border-r-[#D1D3D4]">
+            <img src="image/Work & Pensions.png" alt="">
+        </div>
+        <div class="pl-6">
+            <img src="image/logo.png" alt="">
+        </div>
+
+    </section>
+    <!--This is google section end-->
+
+
+    <section class="flex bg-[#FAFAFA] items-center-center">
+        
+        <section class="h-fit bg-white mt-10 ml-20 mb-16 pl-10 pt-10 pr-10 pb-20 shadow-2xl rounded-xl w-[50%]">
+            <h1 class="border-b pb-5 border-b-red-700">What you will learn</h1>
+            <div class="flex mt-3">
+              <img src="image/Checkmark (1).png" alt="">
+              <p class="pl-2">Gain skills required to succeed in an entry-level IT job</p>
+            </div>
+            <div class="flex mt-5 items-center">
+              <img src="image/Checkmark (1).png" alt="">
+              <p class="pl-2"> Learn to perform day-to-day IT support tasks including<br> computer assembly, wireless networking, installing<br> programs, and customer service</p>
+            </div>
+            <div class="flex mt-5 items-center">
+              <img src="image/Checkmark (1).png" alt="">
+              <p class="pl-2">Learn how to provide end-to-end customer support,<br> ranging from identifying problems to troubleshooting and<br> debugging</p>
+            </div>
+            <div class="flex mt-5">
+              <img src="image/Checkmark (1).png" alt="">
+              <p class="pl-2">Learn to use systems including Linux, Domain Name<br> Systems, Command-Line Interface, and Binary Code</p>
+            </div>
+        </section>
+        
+        <section class="h-fit ml-80 bg-white mt-10 mr-20 mb-10 shadow-2xl rounded-xl p-10 w-[50%]">
+          <img src="image/skills you.png" alt="">
+          <h1 class="border-b pb-5 border-b-red-700">Skills you will gain </h1>
+          <div class="mt-3">
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center mb-3 hover:scale-105 transition-all ">Debugging</button>
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center hover:scale-105 transition-all ">Customer Service</button>
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center hover:scale-105 transition-all ">Customer Support</button>
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center mb-3 hover:scale-105 transition-all ">Domain Name System (DNS)</button>
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center hover:scale-105 transition-all ">Network Model</button>
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center hover:scale-105 transition-all ">Linux</button>
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center mb-3 hover:scale-105 transition-all ">Encryption Algorithms and Techniques</button>
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center mb-3 hover:scale-105 transition-all ">DNetwork Protocols</button>
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center hover:scale-105 transition-all ">Ipv4</button>
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center hover:scale-105 transition-all ">Troubleshooting</button>
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center hover:scale-105 transition-all ">Binary Code</button>
+            <button class="border border-[#F44335] rounded-xl px-3 py-1 items-center hover:scale-105 transition-all ">Cloud Computing</button>
+          </div>
+
+        </section>
+    </section>
+
+    <section class="flex justify-around bg-[#FAFAFA] mb-20">
+        <section class="mt-10 mb-6 shadow-2xl rounded-xl px-10 py-20 bg-white">
+         <h1 class="mt-4 mb-5 border-b  border-b-red-700">Jobs Assocaited with Certificate </h1>
+         <div class="flex">
+            <div class="mr-8">
+                <div class="flex mb-3">
+                    <img src="image/chekmark 2.png" alt="">
+                    <p>Database administrator</p>
+                </div>
+                <div class="flex mb-3">
+                    <img src="image/chekmark 2.png" alt="">
+                    <p>Tech support specialist</p>
+                </div>
+                <div class="flex mb-3">
+                    <img src="image/chekmark 2.png" alt="">
+                    <p>IT specialist</p>
+                </div>
+                <div class="flex mb-3">
+                    <img src="image/chekmark 2.png" alt="">
+                    <p>Systems analyst
+                        </p>
+                </div>
+                <div class="flex mb-3">
+                    <img src="image/chekmark 2.png" alt="">
+                    <p>Network engineer</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex mb-3">
+                    <img src="image/chekmark 2.png" alt="">
+                    <p>Help desk technician</p>
+                </div>
+                <div class="flex mb-3">
+                    <img src="image/chekmark 2.png" alt="">
+                    <p>IT support spcialist</p>
+                </div>
+                <div class="flex mb-3">
+                    <img src="image/chekmark 2.png" alt="">
+                    <p>IT technician</p>
+                </div>
+                <div class="flex mb-3">
+                    <img src="image/chekmark 2.png" alt="">
+                    <p>Computer user specialist
+                        </p>
+                </div>
+                <div class="flex mb-3">
+                    <img src="image/chekmark 2.png" alt="">
+                    <p>IT assitant </p>
+                </div>
+            </div>
+         </div>
+        </section>
+        <section class="mt-10 mb-5">
+          <img class="" src="image/jobs certi.png" alt="">
+        </section>
+    </section>
+
+
+    <section class="flex justify-center">
+        <div class="mt-20">
+            <h1 class="mb-16 text-4xl">There are 5 Courses in this<br> Professional Certificate</h1>
+            <button class="bg-green-500 rounded-lg px-5 py-1 mr-5 hover:scale-105 transition-all ">Course 1 </button>
+            <button class="border rounded-lg px-5 py-1 mr-5 hover:scale-105 transition-all ">Course 2</button>
+            <button class="border rounded-lg px-5 py-1 mr-5 hover:scale-105 transition-all ">Course 3</button>
+            <button class="border rounded-lg px-5 py-1 mr-5 hover:scale-105 transition-all ">Course 4</button>
+            <button class="border rounded-lg px-5 py-1 mr-5 hover:scale-105 transition-all ">Course 5</button>
+        </div>
+        <div>
+            <img src="image/courses.png" alt="">
+        </div>
+       
+    
+
+        
+    </section>
+
+
+    <section class=" flex bg-[#FAFAFA]">
+        
+        <section class="bg-[#2D3142] w-[20%]  text-white ml-10 pl-5 pt-5 mt-5 mb-5 rounded-s-lg">
+            <p class="text-green-500 font-medium mb-7">Course 02</p>
+            <h1 class="text-4xl font-bold font-mono mb-12">The Bits and<br> Bytes of<br> Computer<br> Networking
+
+
+            </h1>
+            <div class="flex items-center mb-10">
+                <p class="text-md text-green-500 font-medium mr-10">37,998 ratings</p>
+               
+                    <img class="mt-3" src="image/Stars.png" alt="">
+                    <p>4.7</p>
+            </div>
+            <button class="bg-[#F44335] rounded-xl px-7 py-2 mr-9 hover:scale-105 transition-all ">Sign Up</button>
+            <button class="bg-white rounded-xl text-black px-9 py-2 hover:scale-105 transition-all ">Next</button>
+
+            <p class="mt-40 mr-5 mb-6">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+            
+            
+         
+        </section>
+
+        <section class="w-[70%] text-black bg-white pl-6 mt-5 mb-5 pr-5 rounded-e-lg">
+          <h1 class="text-[#F9CCC7] font-bold mb-3">About this course</h1>
+          <p class="mb-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+          <h1 class="text-[#F9CCC7] font-bold mb-3">What you will learn </h1>
+          <div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Understand how the binary system works</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3"> Learn how applications are created and how they work under the hood of a computer</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Assemble a computer from scratch</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Choose and install an operating system on a computer</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+            </div>
+          </div>
+          <h1 class="text-[#F9CCC7] mt-3 mb-2 font-bold">Skills you will gain </h1>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Binary Code</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Troubleshooting</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Customer Support</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Linux</button>
+
+          <h1 class="text-[#F9CCC7] font-bold mt-8">Information</h1>
+          <div class="">
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Flexible deadlines</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Shareable Certificate</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">100% online</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Beginner Level</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Approx. 20 hours to complete</p>
+            </div>
+            
+          </div>
+        </section>
+    </section>
+    
+    <img class="-mt-60 ml-32" src="image/Connector Vector 1.png" alt="">
+
+    <section class=" flex bg-[#FAFAFA]">
+        
+        <section class="bg-[#2D3142] w-[20%]  text-white ml-10 pl-5 pt-5 mt-5 mb-5 rounded-s-lg">
+            <p class="text-green-500 font-medium mb-7">Course 01</p>
+            <h1 class="text-4xl font-bold font-mono mb-12">Technical<br> Support<br> Fundamentals
+            </h1>
+            <div class="flex items-center mb-10">
+                <p class="text-md text-green-500 font-medium mr-10">132,411 ratings</p>
+               
+                    <img class="mt-3" src="image/Stars.png" alt="">
+                    <p>4.8</p>
+            </div>
+            <button class="bg-[#F44335] rounded-xl px-7 py-2 mr-9 hover:scale-105 transition-all ">Sign Up</button>
+            <button class="bg-white rounded-xl text-black px-9 py-2 hover:scale-105 transition-all ">Next</button>
+
+            <p class="mt-40 mr-5 mb-6">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+            
+            
+         
+        </section>
+
+        <section class="w-[70%] text-black bg-white pl-6 mt-5 mb-5 pr-5 rounded-e-lg">
+          <h1 class="text-[#F9CCC7] font-bold mb-3">About this course</h1>
+          <p class="mb-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+          <h1 class="text-[#F9CCC7] font-bold mb-3">What you will learn </h1>
+          <div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Understand how the binary system works</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3"> Learn how applications are created and how they work under the hood of a computer</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Assemble a computer from scratch</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Choose and install an operating system on a computer</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+            </div>
+          </div>
+          <h1 class="text-[#F9CCC7] mt-3 mb-2 font-bold">Skills you will gain </h1>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Binary Code</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Troubleshooting</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Customer Support</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Linux</button>
+
+          <h1 class="text-[#F9CCC7] font-bold mt-8">Information</h1>
+          <div class="">
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Flexible deadlines</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Shareable Certificate</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">100% online</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Beginner Level</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Approx. 20 hours to complete</p>
+            </div>
+            
+          </div>
+        </section>
+    </section>
+    
+    <img class="ml-40 -mt-5"  src="image/Connector Vector (2).png" alt="">
+
+    <section class=" flex bg-[#FAFAFA]">
+        
+        <section class="bg-[#2D3142] w-[20%]  text-white ml-10 pl-5 pt-5 mt-5 mb-5 rounded-s-lg">
+            <p class="text-green-500 font-medium mb-7">Course 01</p>
+            <h1 class="text-4xl font-bold font-mono mb-12">Technical<br> Support<br> Fundamentals
+            </h1>
+            <div class="flex items-center mb-10">
+                <p class="text-md text-green-500 font-medium mr-10">132,411 ratings</p>
+               
+                    <img class="mt-3" src="image/Stars.png" alt="">
+                    <p>4.8</p>
+            </div>
+            <button class="bg-[#F44335] rounded-xl px-7 py-2 mr-9 hover:scale-105 transition-all ">Sign Up</button>
+            <button class="bg-white rounded-xl text-black px-9 py-2 hover:scale-105 transition-all ">Next</button>
+
+            <p class="mt-40 mr-5 mb-6">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+            
+            
+         
+        </section>
+
+        <section class="w-[70%] text-black bg-white pl-6 mt-5 mb-5 pr-5 rounded-e-lg">
+          <h1 class="text-[#F9CCC7] font-bold mb-3">About this course</h1>
+          <p class="mb-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+          <h1 class="text-[#F9CCC7] font-bold mb-3">What you will learn </h1>
+          <div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Understand how the binary system works</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3"> Learn how applications are created and how they work under the hood of a computer</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Assemble a computer from scratch</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Choose and install an operating system on a computer</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+            </div>
+          </div>
+          <h1 class="text-[#F9CCC7] mt-3 mb-2 font-bold">Skills you will gain </h1>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Binary Code</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Troubleshooting</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Customer Support</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Linux</button>
+
+          <h1 class="text-[#F9CCC7] font-bold mt-8">Information</h1>
+          <div class="">
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Flexible deadlines</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Shareable Certificate</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">100% online</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Beginner Level</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Approx. 20 hours to complete</p>
+            </div>
+            
+          </div>
+        </section>
+    </section>
+    
+    <img class="ml-40 -mt-5"  src="image/Connector Vector (2).png" alt="">
+
+    <section class=" flex bg-[#FAFAFA]">
+        
+        <section class="bg-[#2D3142] w-[20%]  text-white ml-10 pl-5 pt-5 mt-5 mb-5 rounded-s-lg">
+            <p class="text-green-500 font-medium mb-7">Course 01</p>
+            <h1 class="text-4xl font-bold font-mono mb-12">Technical<br> Support<br> Fundamentals
+            </h1>
+            <div class="flex items-center mb-10">
+                <p class="text-md text-green-500 font-medium mr-10">132,411 ratings</p>
+               
+                    <img class="mt-3" src="image/Stars.png" alt="">
+                    <p>4.8</p>
+            </div>
+            <button class="bg-[#F44335] rounded-xl px-7 py-2 mr-9 hover:scale-105 transition-all ">Sign Up</button>
+            <button class="bg-white rounded-xl text-black px-9 py-2 hover:scale-105 transition-all ">Next</button>
+
+            <p class="mt-40 mr-5 mb-6">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+            
+            
+         
+        </section>
+
+        <section class="w-[70%] text-black bg-white pl-6 mt-5 mb-5 pr-5 rounded-e-lg">
+          <h1 class="text-[#F9CCC7] font-bold mb-3">About this course</h1>
+          <p class="mb-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+          <h1 class="text-[#F9CCC7] font-bold mb-3">What you will learn </h1>
+          <div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Understand how the binary system works</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3"> Learn how applications are created and how they work under the hood of a computer</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Assemble a computer from scratch</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Choose and install an operating system on a computer</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+            </div>
+          </div>
+          <h1 class="text-[#F9CCC7] mt-3 mb-2 font-bold">Skills you will gain </h1>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Binary Code</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Troubleshooting</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Customer Support</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Linux</button>
+
+          <h1 class="text-[#F9CCC7] font-bold mt-8">Information</h1>
+          <div class="">
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Flexible deadlines</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Shareable Certificate</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">100% online</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Beginner Level</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Approx. 20 hours to complete</p>
+            </div>
+            
+          </div>
+        </section>
+    </section>
+    
+    <img class="ml-40 -mt-5"  src="image/Connector Vector (3).png" alt="">
+
+    <section class=" flex bg-[#FAFAFA]">
+        
+        <section class="bg-[#2D3142] w-[20%]  text-white ml-10 pl-5 pt-5 mt-5 mb-5 rounded-s-lg">
+            <p class="text-green-500 font-medium mb-7">Course 01</p>
+            <h1 class="text-4xl font-bold font-mono mb-12">Technical<br> Support<br> Fundamentals
+            </h1>
+            <div class="flex items-center mb-10">
+                <p class="text-md text-green-500 font-medium mr-10">132,411 ratings</p>
+               
+                    <img class="mt-3" src="image/Stars.png" alt="">
+                    <p>4.8</p>
+            </div>
+            <button class="bg-[#F44335] rounded-xl px-7 py-2 mr-9 hover:scale-105 transition-all ">Sign Up</button>
+            <button class="bg-white rounded-xl text-black px-9 py-2 hover:scale-105 transition-all ">Next</button>
+
+            <p class="mt-40 mr-5 mb-6">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+            
+            
+         
+        </section>
+
+        <section class="w-[70%] text-black bg-white pl-6 mt-5 mb-5 pr-5 rounded-e-lg">
+          <h1 class="text-[#F9CCC7] font-bold mb-3">About this course</h1>
+          <p class="mb-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+          <h1 class="text-[#F9CCC7] font-bold mb-3">What you will learn </h1>
+          <div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Understand how the binary system works</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3"> Learn how applications are created and how they work under the hood of a computer</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Assemble a computer from scratch</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Choose and install an operating system on a computer</p>
+            </div>
+            <div class="flex items-center">
+                <img src="image/Checkmark (1).png" alt="">
+                <p class="-mt-5 ml-3">Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+            </div>
+          </div>
+          <h1 class="text-[#F9CCC7] mt-3 mb-2 font-bold">Skills you will gain </h1>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Binary Code</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Troubleshooting</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Customer Support</button>
+          <button class="bg-[#EC4899] rounded text-white px-3 py-1 mr-4 hover:scale-105 transition-all">Linux</button>
+
+          <h1 class="text-[#F9CCC7] font-bold mt-8">Information</h1>
+          <div class="">
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Flexible deadlines</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Shareable Certificate</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">100% online</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Beginner Level</p>
+            </div>
+            <div class="flex items-center">
+                <p class="text-[#F9CCC7] text-2xl font-bold">.</p>
+                <p class="mt-2 ml-1">Approx. 20 hours to complete</p>
+            </div>
+            
+          </div>
+        </section>
+    </section>
+
+    <footer class="shadow-lg pb-3">
+        <div class="flex justify-around mt-12 mb-6">
+            <div>
+                <img src="image/logo.png" alt="">
+                <p class="mt-4">Level39<br>One Canada Square,<br>Canary Wharf,<br> London,<br>E14 5AB</p>
+            </div>
+            <div>
+                <ul>
+                    <li class="mb-3"><a class="font-bold" href="#">Home</a></li>
+                    <li class="mb-3">Collaborations</li>
+                    <li class="mb-3">Statistics</li>
+                    <li class="mb-3">How It Works</li>
+                    <li class="mb-3">Testimonials</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="mb-3"><a class="font-bold" href="#">About Us</a></li>
+                    <li class="mb-3">Who We Are</li>
+                    <li class="mb-3">Mission statement </li>
+                    <li class="mb-3">Our Vision </li>
+                    <li class="mb-3">The  Team </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="mb-3"><a class="font-bold" href="#">Upskill</a></li>
+                    <li class="mb-3">It Support </li>
+                    <li class="mb-3">Project Managment </li>
+                    <li class="mb-3">Data Analysts</li>
+                    <li class="mb-3">Ux Design</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="mb-3"><a class="font-bold" href="#">Contact Us </a></li>
+                    <li class="mb-3">Your message </li>
+                    <li class="mb-3">Email </li>
+                    <li class="mb-3">Phone number </li>
+                    <li class="mb-3">Linkedin </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const htmlTag = document.getElementById("htmlTag")
+        document.getElementById("switch").addEventListener("click", function () {
+            htmlTag.classList.toggle("dark");
+        });
+      </script>  
+    
+    
+    
+</body>
+</html>
